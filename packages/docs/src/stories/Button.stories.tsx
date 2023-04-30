@@ -1,16 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react"
-import { ReactNode } from "react"
 
-interface ButtonProps {
-  children: ReactNode
-}
-const Button = ({children}: ButtonProps) => {
-  return (
-    <button>
-      {children}
-    </button>
-  )
-}
+import { Button, ButtonProps } from "@ecosystem/react"
 
 export default {
     title: 'Form/Button',
