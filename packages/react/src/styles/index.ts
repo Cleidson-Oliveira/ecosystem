@@ -1,13 +1,13 @@
 import { createStitches, defaultThemeMap } from '@stitches/react'
-// import {
-//   colors,
+import {
+  colors,
 //   fontSizes,
 //   fonts,
 //   fontWeights,
 //   lineHeights,
 //   radii,
 //   space,
-// } from '@ecosystem/tokens'
+} from '@ecosystem/tokens'
 
 export const {
   css,
@@ -24,13 +24,13 @@ export const {
 //     height: 'space',
 //     width: 'space',
 //   },
-//   theme: {
-    // colors,
+  theme: {
+    colors,
     // fonts,
     // fontSizes,
     // fontWeights,
     // lineHeights,
     // radii,
     // space,
-//   },
+  },
 })
