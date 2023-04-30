@@ -1,0 +1,4 @@
+{
+    "extends": "@ecosystem/ts-config/base.json",
+    "include": ["src"]
+}
