@@ -12,6 +12,10 @@ export const colors = {
     "lemon-green-light": "#c1ff32",
     "lemon-green-mid": "#adf802",
     "lemon-green-dark": "#8ac700",
-    "minte-green": "#3EB489",
-    "olive-green": "#808000",
+    "minte-green-light": "#53E4AF",
+    "minte-green-mid": "#3EB489",
+    "minte-green-dark": "#329872",
+    "olive-green-light": "#8EA400",
+    "olive-green-mid": "#808000",
+    "olive-green-dark": "#2D4F00",
 }
