@@ -9,6 +9,8 @@
         "lint": "eslint src/**/*.ts* --fix"
     },
     "devDependencies": {
+        "@ignite-ui/eslint-config": "*",
+        "@ignite-ui/ts-config": "*",
         "tsup": "^6.7.0",
         "typescript": "^5.0.4"
     },
