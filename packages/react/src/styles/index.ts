@@ -1,12 +1,12 @@
 import { createStitches, defaultThemeMap } from '@stitches/react'
 import {
   colors,
-//   fontSizes,
-//   fonts,
-//   fontWeights,
-//   lineHeights,
-//   radii,
-//   space,
+  fontSizes,
+  fonts,
+  fontWeights,
+  lineHeights,
+  radii,
+  space,
 } from '@ecosystem/tokens'
 
 export const {
@@ -19,18 +19,18 @@ export const {
   createTheme,
   keyframes,
 } = createStitches({
-//   themeMap: {
-//     ...defaultThemeMap,
-//     height: 'space',
-//     width: 'space',
-//   },
+  themeMap: {
+    ...defaultThemeMap,
+    height: 'space',
+    width: 'space',
+  },
   theme: {
     colors,
-    // fonts,
-    // fontSizes,
-    // fontWeights,
-    // lineHeights,
-    // radii,
-    // space,
+    fonts,
+    fontSizes,
+    fontWeights,
+    lineHeights,
+    radii,
+    space,
   },
 })
