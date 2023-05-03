@@ -1,35 +1,47 @@
 import type { Meta, StoryObj } from "@storybook/react"
 
-import { Button, ButtonProps } from "@ecosystem/react"
+import { Box, Button, ButtonProps } from "@ecosystem/react"
 
 export default {
-    title: "Form/Button",
-    component: Button,
-    args: {
-      children: "Send",
-      type: "primary",
-      size: "small"
+  title: "Form/Button",
+  component: Button,
+
+  args: {
+    children: "Send",
+    type: "primary",
+    size: "small"
+  },
+  
+  argTypes: {
+    type: {
+      options: ["primary", "secondary"],
+      control: {
+        type: "inline-radio",
+      },
     },
-    argTypes: {
-      type: {
-        options: ["primary", "secondary"],
-        control: {
-          type: "inline-radio",
-        },
+    size: {
+      options: ["small", "big"],
+      control: {
+        type: "inline-radio",
       },
-      size: {
-        options: ["small", "big"],
-        control: {
-          type: "inline-radio",
-        },
+    },
+    disabled: {
+      options: [true, false],
+      control: {
+        type: "boolean",
       },
-      disabled: {
-        options: [true, false],
-        control: {
-          type: "boolean",
-        },
-      }
     }
+  },
+  
+  decorators: [
+    (Story) => {
+      return (
+        <Box>
+          {Story()}
+        </Box>
+      )
+    }
+  ]
 } as Meta<ButtonProps>
   
 export const Primary: StoryObj<ButtonProps> = {
