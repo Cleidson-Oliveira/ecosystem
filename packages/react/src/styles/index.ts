@@ -7,7 +7,7 @@ import {
   lineHeights,
   radii,
   space,
-} from '@ecosystem/tokens'
+} from "@ecosystem/tokens"
 
 export const {
   css,
