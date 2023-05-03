@@ -22,6 +22,12 @@ export default {
         control: {
           type: "inline-radio",
         },
+      },
+      disabled: {
+        options: [true, false],
+        control: {
+          type: "boolean",
+        },
       }
     }
 } as Meta<ButtonProps>
@@ -35,5 +41,11 @@ export const Primary: StoryObj<ButtonProps> = {
 export const Secondary: StoryObj<ButtonProps> = {
   args: {
     type: "secondary"
+  },
+}
+
+export const Disabled: StoryObj<ButtonProps> = {
+  args: {
+    disabled: true
   },
 }
