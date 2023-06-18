@@ -3,3 +3,4 @@ build
 node_modules
 .turbo
 storybook-static
+.todo
