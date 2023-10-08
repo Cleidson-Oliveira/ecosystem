@@ -2,6 +2,8 @@
 
 ## About
 
+Design System criado com Storybook, React, Typescript, Stitches e outras ferramentas que envolvem o desenvolvimento web.
+
 [Eco System Design](https://cleidson-oliveira.github.io/ecosystem/?path=/story/tokens-colors--page)
 
 ## Main Tech
